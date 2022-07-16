@@ -10,7 +10,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./sass/bootstrap.css">
+    <link rel="stylesheet" href="../sass/bootstrap.css">
 </head>
 <body class="container-fluid">
     <!--Fila del logo + nav-->
@@ -45,58 +45,61 @@
     </header>
     <!--Cierre de Fila del logo + nav-->
     <!--Inicia contenido de la pag-->
-        <main>
-            <section id="Contacto" class="container">
-                <div class="row justify-content-around pt-5">
-                <form action="" method="get" class="col-12 col-sm-4 ">
-                    <h3 class="mb-3">Subscribete a nuestro NewsLetter</h3>
-                    <p class="mb-3">Y recibe de primera mano tips, consejos y artículos de Alto Valor que te Ayudarán para Crear Hábitos para que cumplas tus metas y te conviertas en la Mejor Versión de Ti</p>
-                    <div class="mb-3 ">
+        <main class="container-fluid p-0">
+            <section id="Contacto" class="container-fluid">
+                <div class="row justify-content-around pt-5 ">
+                    <form action="" method="get" class="col-12 col-sm-4 ">
+                        <h3 class="my-3">Subscribete a nuestro NewsLetter</h3>
+                        <p class="mb-3">Y recibe de primera mano tips, consejos y artículos de Alto Valor que te Ayudarán para Crear Hábitos para que cumplas tus metas y te conviertas en la Mejor Versión de Ti</p>
+                        <div class="mb-3 ">
                         <label for="exampleInputEmail1" class="form-label">Correo</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Nunca compatiremos su correo electronico con nadie más.</div>
-                    </div>
-                    <div class="mb-3">
+                        </div>
+                        <div class="mb-3">
                         <label for="exampleInputText1" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="exampleInputText1">
-                    </div>
-                    <div class="mb-3 form-check">
+                        </div>
+                        <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Acepto los terminos</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
+                        </div>
+                        <button type="submit" class="btn btn-primary my-3">Enviar</button>
+                    </form>
+                
                 <div class="col-6 col-md-4">
-                    <ul>
-                        <li><a href="../index.html">Home</a></li>                        
-                        <li><a href="./nosotros.html">Nosotros</a></li>
-                        <li><a href="./blog.html">Blog</a></li>
-                        <li><a href="./cursos.html">Cursos</a></li>
-                        <li><a href="./contacto.html">Contacto</a></li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>                        
+                            <li><a href="./paguinas/nosotros.html">Nosotros</a></li>
+                            <li><a href="./paguinas/blog.html">Blog</a></li>
+                            <li><a href="./paguinas/cursos.html">Cursos</a></li>
+                            <li><a href="./paguinas/contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-6 col-md-4">
                     <h4>Redes sociales</h4>
                     <div class="miniLogos">
                         <ul class="flex">
-                            <li><a href=""><img class="facebook" src="./rrss/icons8-facebook-30.png" alt="facebook"></a></li>                        
-                            <li><a href=""><img class="instagram" src="./rrss/icons8-instagram-24.png" width="35px" alt="instagram"></a></li>  
-                            <li><a href=""><img class="youtube" src="./rrss/icons8-youtube-play-32.png" alt="youtube"></a></li>
+                            <li><a href=""><img class="facebook" src="../rrss/icons8-facebook-30.png" alt="facebook"></a></li>                        
+                            <li><a href=""><img class="instagram" src="../rrss/icons8-instagram-24.png" width="35px" alt="instagram"></a></li>  
+                            <li><a href=""><img class="youtube" src="../rrss/icons8-youtube-play-32.png" alt="youtube"></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             </section>
-        </main>
-    <!--Fin contenido de la pag-->
-    <footer class="footer py-5 col-12"> 
-        <div class="container col-12 text-center align-item-center">© All rights reserved Hábitos Para Ser
-        </div>    
-    </footer>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
+</main>
+<!--Fin contenido de la pag-->
+<footer class="footer py-5 col-12"> 
+    <div class="container-fluid col-12 text-center align-item-center">© Todos los derechos reservados a Hábitos Para Ser
+    </div>    
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
 
